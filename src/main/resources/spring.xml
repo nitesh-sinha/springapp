@@ -9,10 +9,10 @@
 <!--    <bean id="vehicle" class="com.nitesh.Bike"></bean>-->
     <context:component-scan base-package="com.nitesh"></context:component-scan>
 
-    <bean id="tyre" class="com.nitesh.Tyre">
+<!--    <bean id="tyre" class="com.nitesh.Tyre">-->
 <!--        The propery tag uses brand's setter method(setBrand) of Tyre class-->
 <!--        <property name="brand" value="MRF"></property>-->
 
-        <constructor-arg value="Ceat"></constructor-arg>
-    </bean>
+<!--        <constructor-arg value="Ceat"></constructor-arg>-->
+<!--    </bean>-->
 </beans>

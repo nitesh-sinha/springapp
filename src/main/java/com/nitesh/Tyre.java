@@ -2,19 +2,14 @@ package com.nitesh;
 
 import org.springframework.stereotype.Component;
 
+@Component
 public class Tyre {
 
     private String brand;
 
-    public Tyre(String brand) {
-        this.brand = brand;
-    }
-
     @Override
     public String toString() {
-        return "Tyre{" +
-                "brand='" + brand + '\'' +
-                '}';
+        return "Tyre";
     }
 
     public String getBrand() {
