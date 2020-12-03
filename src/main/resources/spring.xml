@@ -11,6 +11,8 @@
 
     <bean id="tyre" class="com.nitesh.Tyre">
 <!--        The propery tag uses brand's setter method(setBrand) of Tyre class-->
-        <property name="brand" value="MRF"></property>
+<!--        <property name="brand" value="MRF"></property>-->
+
+        <constructor-arg value="Ceat"></constructor-arg>
     </bean>
 </beans>
